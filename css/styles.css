@@ -179,7 +179,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
-  gap: 24px 48px;
+  gap: 24px;
 }
 .main-content-portfolio {
   padding-top: 96px;
@@ -229,6 +229,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 500px;
+  text-align: center;
 }
 .title-3 {
   font-weight: 500;
@@ -254,7 +255,7 @@ body {
   justify-content: center;
 }
 .devices {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .box-img:not(:last-child) {
   margin-right: 24px;
@@ -303,6 +304,8 @@ body {
 /* .............FOOTER............. */
 .footer {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .studio-foot {
   font-family: var(--sekondary-font);
@@ -321,7 +324,4 @@ body {
   width: 264px;
   margin-top: 16px;
 }
-.footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+
